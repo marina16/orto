@@ -1,0 +1,404 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+body {
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url("site-orto_green-background.jpg");
+    background-position: center top;
+    background-size: cover;
+    color: #3a372f;
+}
+h1 {
+    padding-left: 50px;
+    font-size: 30pt;
+    color: #605c51;
+    line-height: 2;
+    margin: 35px 0 35px 0;
+}
+h2 {
+    padding-left: 50px;
+    padding-top: 2em;
+    font-size: 22pt;
+    color: #605c51;
+    line-height: 1;
+}
+h4 {
+    margin-left: -15px;
+    padding: 14px 0;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #605c51;
+    line-height: 1.2;
+}
+ul {
+    margin: 5px 15px;
+}
+legend {
+    margin: 8px 0;
+}
+ul li {
+    padding: 3px 15px;
+    list-style: disc outside;
+    line-height: 1.4;
+}
+blockquote {
+    padding: 20px 20px 20px 30%;
+    line-height: 1.4;
+    font-family: serif;
+    font-size: 15pt;
+    font-style: oblique;
+    text-align: left;
+}
+.content {
+    position: relative;
+}
+.content p {
+    padding: 30px 0 0 0;
+    font-size: 12pt;
+    line-height: 1.7;
+    text-align: justify;
+}
+.content-end-ornament {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -170px;
+    right: -25px;
+    background-image: url("content-end-ornament2.png");
+/*
+    top: -200px;
+    right: 0;
+    background-image: url("content-end-ornament.png");
+*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.content p:nth-of-type(1):first-letter {
+    float: left;
+    margin: 1px;
+    padding: 0 6px 2px;
+    font-family: "Ruslan Display";
+    font-size: 68pt;
+    color: #605c51;
+    line-height: 1;
+}
+
+/*p:first-of-type:first-letter {
+    font-family: "Ruslan Display";
+    float: left;
+    font-size: 5em;
+    line-height: .8em;
+    margin-right: .1em;
+    margin-left: 0;
+    color: #605c51;
+}*/
+.wrapper {
+    height: 100%;
+    width: 1158px;
+    margin: 0 auto;
+    margin-top: -25px;
+    text-align: right;
+    background-image: url(sidebar-back-ornament.png);
+    background-repeat: repeat-y;
+    background-position: 58px top;
+}
+.sidebar {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 197px;
+}
+.sidebar-top {
+    height: 181px;
+    width: 100%;
+    /*background-image: url(sidebar-bird-brown.png);*/
+    background-repeat: no-repeat;
+}
+.logo {
+    position: absolute;
+    top: 181px;
+    left: 0;
+    right: 0;
+    height: 225px;
+    width: 100%;
+    text-align: center;
+}
+.diplom {
+    margin-top: 450px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    float: right;
+    width: 840px;
+}
+header {
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+.heading {
+    height: 175px;
+    font-family: "Ruslan Display";
+    font-size: 98pt;
+    vertical-align: bottom;
+    overflow: hidden;
+    /*
+        text-transform: uppercase;
+        letter-spacing: 35px;
+        background-image: url(heading-brown.png);
+    */
+}
+.heading a {
+    text-shadow: 0 4px 6px rgba(0,0,0,.4);
+    line-height: 280px;
+    color: #3A372F;
+    text-decoration: none;
+}
+.heading a:hover {
+    text-shadow: -2px 0 6px rgba(0,0,0,.4);
+}
+.slogan {
+    height: 55px;
+    font-size: 15pt;
+    font-weight: 300px;
+}
+menu {
+    width: 100%;
+    text-align: center;
+}
+menu a {
+    display: inline-block;
+    height: 54px;
+    width: 24%;
+    font-family: "Ruslan Display";
+    font-size: 18pt;
+    line-height: 58px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #6F6755;
+}
+menu a:hover {
+    background-color: #3A372F;
+}
+menu a.active,
+menu a.active:hover,
+.submenu a.active,
+.submenu a.active:hover {
+    background-color: #3A372F;
+    cursor: default;
+}
+.submenu-main {
+    display: none;
+}
+.submenu {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+.submenu a {
+    margin: 12px 2px;
+    padding: 3px 12px 5px 12px;
+    font-size: 13pt;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #837B62;
+    background-color: rgba(136,127,104,.6);
+    border-radius: 8px;
+}
+.submenu a:hover {
+    color: #FFFFFF;
+    background-color: #3A372F;
+}
+.content {
+    width: 100%;
+    text-align: left;
+    padding: 0 0 50px 0;
+}
+.text-image img {
+    width: 300px;
+    float: right;
+    padding: 0 0 20px 40px;
+}
+.gallery p {
+    text-align: center;
+}
+.gallery p img {
+    display: block;
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #B6B09D;
+}
+.clear {
+    height: 100px;
+    width: 100%;
+    clear: both;
+    font-size:0;
+    overflow:hidden;
+}
+.footer {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0px 50px 0;
+    text-align: left;
+    background-color: #3A372F;
+    color: #eee7cd;
+}
+.footer h3 {
+    padding-left: 20%;
+    text-align: left;
+    font-size: 12pt;
+}
+.footer h3:first-letter {
+    margin: 1px;
+    padding: 0 2px 0 0;
+    font-family: "Ruslan Display";
+    font-size: 40pt;
+    color: #605c51;
+    line-height: 1;
+}
+.footer_art,
+.footer_sitemap,
+.footer_contact_Us {
+    width: 33%;
+}
+.footer_contact_Us {
+    float: right;
+}
+.footer_art {
+    float: left;
+    padding: 0 0 0 0;
+}
+.footer_sitemap {
+    float: left;
+    padding: 0 0 0 0;
+}
+.footer ul {
+    padding: 0!important;
+    padding-left: 30%!important;
+}
+.footer_sitemap ul li,
+.footer_contact_Us ul li,
+.footer_art ul li {
+    margin: 10px 5px !important;
+    padding: 0!important;
+    list-style: outside none disc;
+    line-height: 1!important;
+}
+.footer a {
+    color: #eee7cd;
+    text-decoration: none;
+}
+.content a {
+    color: #3a372f;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #FFFFFF;
+}
+
+.footer ul {
+    list-style-type: disc;
+    color: #605C51;
+}
+ul.no-list-style li {
+    padding: 0;
+    list-style: none!important;
+}
+.list-style-align {
+    margin-left: -12px!important;
+
+}
+.list-style-align span {
+     color: #605C51;
+}
+.footer ul li span {
+    color: #eee7cd;
+}
+.networks {
+    position: absolute;
+    top: 500px;
+    left: 215px;
+}
+.networks img {
+    height: 48px;
+    width: 48px;
+}
+.networks ul {
+    list-style: none;
+}
+/*sprite icons w79  x  h79
+icon 73 x 73 */
+
+/*
+.icons {
+    margin-bottom: 3px;
+    height: 48px;
+    width: 48px;
+    background-image: url("icon_set_sprite.png");
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+.icons:hover {
+    background-image: url("icon_set_sprite-hover.png");
+}
+.icons.vk {
+    background-position: 0 0;
+}
+.icons.youtube {
+    background-position: 0 -50px;
+}
+.icons.skype {
+    background-position: 0 -100px;
+}
+.icons.gmail {
+    background-position: 0 -150px;
+}
+*/
+.icons {
+    margin-bottom: 3px;
+    height: 48px;
+    width: 48px;
+    background-image: url("icon_set_sprite-social.png");
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+.icons.vk {
+    background-position: 0 0;
+}
+.icons.youtube {
+    background-position: 0 -50px;
+}
+.icons.skype {
+    background-position: 0 -100px;
+}
+.icons.gmail {
+    background-position: 0 -150px;
+}
+.icons.vk:hover {
+    background-position: -50px 0;
+}
+.icons.youtube:hover {
+    background-position: -50px -50px;
+}
+.icons.skype:hover {
+    background-position: -50px -100px;
+}
+.icons.gmail:hover {
+    background-position: -50px -150px;
+}
+
